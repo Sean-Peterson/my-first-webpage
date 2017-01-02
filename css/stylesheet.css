@@ -1,5 +1,13 @@
 h1 {
   color: red;
-  font-size: ;
+  font-size: 3em;
   background-color: yellow;
+  border: solid 2px red;
+  text-align: center;
+  position: fixed;
+  width: 99%;
+  margin: 0px;
+}
+h6 {
+  padding-top: 20%;
 }
