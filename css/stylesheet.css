@@ -1,13 +1,46 @@
+
+body {
+  background-color: #56B5C5;
+  color: white;
+  font-size: 1em;
+}
+
+.image {
+  background-image: url("https://pbs.twimg.com/media/CdCNapEW4AA7Efv.jpg");
+  background-size: cover;
+}
+
 h1 {
   color: red;
   font-size: 3em;
   background-color: yellow;
   border: solid 2px red;
   text-align: center;
-  position: fixed;
-  width: 99%;
-  margin: 0px;
 }
+
 h6 {
-  padding-top: 20%;
+  padding-top: 20px;
 }
+
+h2 {
+  font-size: 25px;
+}
+
+.batman {
+  display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.lists {
+  color: white;
+}
+
+.listAnchor {
+  color: black;
+}
+
+ #other {
+   color: white;
+   font-size: 1.5em;
+ }

@@ -8,27 +8,34 @@
   </head>
 
   <body>
+    <div class="image">
     <h1>My very first webpage! (kinda ;))</h1>
     <h6>Created with the help of <em>Epicodus</em></h6>
 
-    <p>Well, here it is. <strong>Impressed?</strong></p>
-    <a href="img/theBatmanFunny.jpg" target="_blank" ><img src="img/hqdefault.jpg" alt="A totally bad ass photo of the Batman"/></a>
+    <h2>Well, here it is. <strong>Impressed?</strong></h2>
+    <div class="batman">
+        <a href="img/theBatmanFunny.jpg" target="_blank"><img src="img/hqdefault.jpg" alt="A totally bad ass photo of the Batman"/></a>
+    </div>
+
     <p>Be more impressed after clicking the photo ;)</p>
-    <div>
       <p>Here's a list of things we'll use to build this website.</p>
+        <div class="lists">
         <ul>
-          <li><a href="http://www.w3schools.com/html/html_intro.asp" target="_blank">HTML</a></li>
-          <li><a href="http://www.w3schools.com/css/default.asp" target="_blank">css</a></li>
-          <li><a href="http://www.w3schools.com/js/default.asp" target="_blank">javaScript</a></li>
+          <li><a class="listAnchor"href="http://www.w3schools.com/html/html_intro.asp" target="_blank">HTML</a></li>
+          <li><a class="listAnchor"href="http://www.w3schools.com/css/default.asp" target="_blank">css</a></li>
+          <li><a class="listAnchor"href="http://www.w3schools.com/js/default.asp" target="_blank">javaScript</a></li>
         </ul>
-      <p>Here's a list of things that will not be included in our website</p>
+        </div>
+      <p id="last">Here's a list of things that will not be included in our website</p>
+        <div class="lists">
         <ol>
           <li>PHP</li>
           <li>Drupal</li>
           <li>Other stuff</li>
         </ol>
-      <p><a href="favorite-things.html" target="_blank">And here is my second webpage XD</a></p>
-    </div>
+        </div>
+      <p><a id="other" href="favorite-things.html" target="_blank">And here is my second webpage XD</a></p>
+</div>
   </body>
 
 </html>
